@@ -1,0 +1,175 @@
+body {
+    background-color:#161212;
+    text-align: center;
+    color:#fff;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+* { color:#fff; text-decoration: none;}
+
+.container-fluid{
+    position: relative;
+}
+button{
+    border-radius: 4px;
+}
+/* #navContainer{
+    position: relative;
+}
+#nav{
+    float: right;
+    margin: 1%;
+}
+#light{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    color: #161212;
+}
+#light:hover{
+    background-color: gray;
+    color: white;
+}
+#dark{
+    cursor: pointer;
+}
+#dark:hover{
+
+} */
+img{
+    min-height: 20px;
+    max-width: 40px;
+    text-align: center;
+    pointer-events: none;
+}
+#intro{
+    padding-top: 14em;
+    margin: auto;
+}
+#profile{
+    padding-top: 6em;
+    text-align: center;
+}
+#profile img{
+    max-height: 400px;
+    min-width: 400px;
+}
+.project{
+    font-weight: bold;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.project:hover{
+    background-color: rgb(82, 82, 87);
+}
+.dropdown .project a{
+    color: #161212;
+    text-decoration: none;
+}
+.dropdown .project a:hover{
+    color:white;
+}
+.message{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+.message:hover{
+    background-color: rgb(82, 82, 87);
+}
+.message a{
+    color: #161212;
+    text-decoration: none;
+}
+.message a:hover{
+    color:white;
+}
+#contact{
+    margin-top: 80px;
+    margin-bottom: 4%;
+    text-align: center;
+}
+#contact i{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+#contact i:hover{
+    color: yellowgreen;
+}
+.footer a{
+    text-decoration: none;
+    color:yellowgreen;
+}
+.footer a:hover{
+    color:blue;
+}
+.wip{
+    text-align: center;
+    cursor: pointer;
+}
+.wip a{
+    text-decoration: none;
+    text-align: center;
+    color: #161212;
+    font-weight: bold;
+}
+.wip:hover{
+    background-color: rgb(82, 82, 87);
+}
+.wip a:hover{
+    color:white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+  
+.dropdown-content {
+    padding-top: 2px;
+    display: none;
+    position: absolute;
+    background-color: gray;
+    border-radius: 5px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: bold;
+}
+.dropdown-content a{
+    text-decoration: none;
+    color:black;
+}
+#project1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 2%;
+}
+#project1:hover,#project2:hover,#project3:hover,#project4:hover,#project5:hover,#project6:hover{
+    background-color: white;
+}
+#project2{
+    margin-bottom: 2px;
+    padding-left: 2%;
+}
+#project3,#project4,#project5,#project6{
+    padding-left: 2%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@media (max-width:540px){
+    #profile img{min-width: 250px ; min-height:280px}
+    img{max-height: 20px; max-width: 20px;}
+    .dropdown{display: block,center}
+    .dropdown-content{min-width: 105px}
+    .dropdown-content p{font-size: 10.8px;}
+    #intro{padding-top: 5em;}
+    #intro h1{font-size: xx-large;} 
+    #footer p{font-size: small;}
+}
